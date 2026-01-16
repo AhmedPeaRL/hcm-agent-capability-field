@@ -1,0 +1,24 @@
+{
+  "initiator": {
+    "may_exist": true,
+    "may_trigger": false,
+    "requires_reason": true
+  },
+  "invocator": {
+    "may_open_passage": true,
+    "may_force_entry": false
+  },
+  "aligner": {
+    "enforces_coherence": true,
+    "responds_to_demand": false
+  },
+  "summoner": {
+    "may_witness": true,
+    "may_request": false
+  },
+  "agent_capability": {
+    "always_present": true,
+    "never_called": true,
+    "never_idle": false
+  }
+}
